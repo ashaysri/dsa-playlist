@@ -2,5 +2,5 @@
 
 Code repository of Solved DSA based problems from Leetcode and GeeksforGeeks.
 
-Leetcode profile - [https://leetcode.com/ashay20/](ashay20)
-GeeksforGeeks profile - [https://auth.geeksforgeeks.org/user/ashay20/practice/](ashay20)
+Leetcode profile - [ashay20](https://leetcode.com/ashay20/)
+GeeksforGeeks profile - [ashay20](https://auth.geeksforgeeks.org/user/ashay20/practice/)
