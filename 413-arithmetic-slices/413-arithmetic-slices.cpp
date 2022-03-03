@@ -7,7 +7,7 @@ public:
                 ap[i]=ap[i-1]+1;
             }
         }
-        for(int i {2};i<nums.size();i++){
+        for(int i {3};i<nums.size();i++){
             ap[i]+=ap[i-1];
         }
         return ap[nums.size()-1];
