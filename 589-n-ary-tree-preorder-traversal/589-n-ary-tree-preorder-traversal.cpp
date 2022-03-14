@@ -24,7 +24,7 @@ public:
         if(root==NULL)
             return;
         ans.push_back(root->val);
-        for(auto it: root->children){
+        for(Node* it: root->children){
             preTraversal(it,ans);
         }
     }
