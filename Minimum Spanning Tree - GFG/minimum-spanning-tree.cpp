@@ -25,7 +25,7 @@ class Solution
             mSet[u]=true;
             ans+=key[u];
             for(auto it: adj[u]){
-                if(it[0]!=0 && !mSet[it[0]])
+                if(!mSet[it[0]])
                     key[it[0]]=min(key[it[0]],it[1]);
             }
         }
