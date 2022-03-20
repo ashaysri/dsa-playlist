@@ -14,7 +14,7 @@ class Solution
         vector<int> dist(V, INT_MAX);
         dist[S]=0;
         vector<int> fin(V,false);
-        for(int i {};i<V;i++){
+        for(int i {};i<V-1;i++){
             int u=-1;
             for(int j {};j<V;j++){
                 if(!fin[j]&&(u==-1||dist[j]<dist[u]))
